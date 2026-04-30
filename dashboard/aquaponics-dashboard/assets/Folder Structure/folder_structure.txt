@@ -1,0 +1,59 @@
+/aquaponics-dashboard/
+│
+├── index.php              (Main dashboard)
+├── pages/
+│   ├── sensors.php
+│   ├── analytics.php
+│   ├── pumps.php
+│   ├── alerts.php
+│   ├── reports.php
+│   └── settings.php
+│
+├── components/
+│   ├── sidebar.php
+│   ├── navbar.php
+│   └── footer.php
+│
+├── assets/
+│   ├── css/style.css
+│   ├── js/app.js
+│   └── images/
+│
+└── api/
+    └── data.php   (ESP32 + DB later)
+
+
+
+
+aquaponics-dashboard/
+│
+├── index.php
+│
+├── pages/
+│   ├── sensors.php
+│   ├── analytics.php
+│   ├── pumps.php
+│   ├── alerts.php
+│   ├── reports.php
+│   └── settings.php
+│
+├── components/
+│   ├── sidebar.php
+│   ├── navbar.php
+│   └── footer.php
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   └── app.js
+│   │
+│   ├── images/
+│   │   ├── farm/
+│   │   ├── sensors/
+│   │   ├── icons/
+│   │   └── ui/
+│
+├── api/
+│   └── data.php
